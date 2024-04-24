@@ -1,0 +1,3 @@
+npm i use-interval
+npm install react-router-dom localforage match-sorter sort-by
+npm i axios use-interval react-router-dom

@@ -1,0 +1,56 @@
+@import url('https://fonts.cdnfonts.com/css/metrophobic');
+
+* {
+    font-family: 'Metrophobic', sans-serif;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+}
+
+.bg-color-login {
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 145) 0%, rgb(51, 0, 101) 100.2%) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    height:100vh !important;
+    margin:0px;
+    position: relative;
+}
+
+.title-header{
+  font-size: 30px;
+  font-weight: bold !important;
+}
+
+.space-break{
+  margin-bottom: 90px !important;
+}
+
+  /* if screen size is smaller than 765px */
+@media (max-width:765px) { 
+    .on-top-reduce {
+        margin-top: -150px !important;
+    }
+    .on-bot-reduce {
+      margin-bottom: -150px !important;
+  }
+  .bg-color-login {
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100% !important;
+    margin:0px;
+    position: relative;
+}
+
+}
+
+  .text-mini{
+    font-size: 20px;
+  }
+  .image {
+    margin-top: -100px;
+  }
+  .column {
+    max-width: 410px;
+  }
